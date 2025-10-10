@@ -1,94 +1,444 @@
-Oussama Turki's Quantum Engineering Portfolio
-Welcome to my portfolio of projects and coursework from the Master in Quantum Engineering program. This repository showcases my hands-on experience and deep understanding of the key pillars of quantum technology, from foundational theory to advanced, practical applications.
+# Oussama Turki — Quantum Engineering Portfolio
 
-Core Competencies
-My studies have provided me with comprehensive expertise in the following key areas:
+Welcome to my portfolio of projects and coursework from the **Master's in Quantum Engineering** program. This repository collects hands-on implementations, notebooks, and reports that demonstrate both the theoretical foundations and applied skills I developed during my studies.
 
+---
 
-Quantum Algorithms: In-depth theoretical study and practical implementation of a wide range of algorithms, including the Quantum Fourier Transform , Grover's Search Algorithm , Shor's Factorization Algorithm , the HHL Algorithm , and Quantum Walk Algorithms.
+## Overview
+I focus on quantum algorithms, hardware-aware problem formulation, hybrid quantum-classical methods for NISQ devices, quantum machine learning, quantum communications, and error correction. The work here includes reproducible code, Jupyter notebooks, and short reports summarizing experimental results and design choices.
 
+---
 
+## Core competencies
+- **Quantum algorithms** — Theory and implementation of algorithms such as Quantum Fourier Transform, Grover’s search, Shor’s factoring, HHL, Quantum Phase Estimation, and quantum walk methods.  
+- **Quantum hardware paradigms & simulation** — Gate-based and adiabatic models; QUBO / Ising formulations for annealers; hardware-aware mapping and simulation.  
+- **Variational & optimization algorithms** — Design and evaluation of hybrid algorithms (VQE, QAOA, QAE) and classical optimizer integration for NISQ devices.  
+- **Quantum machine learning** — Prototyping quantum neural circuits, embeddings, and hybrid approaches using PennyLane / TFQ.  
+- **Quantum communications & cryptography** — Practical exercises in QKD, entanglement protocols (teleportation, dense coding), and quantum data compression.  
+- **Quantum error correction & mitigation** — Stabilizer codes, syndrome extraction analysis, and NISQ-era mitigation techniques.
 
+---
 
+## Repository structure
+Each top-level folder contains projects, notebooks, datasets (when allowed), and a folder README with setup and execution instructions.
 
+1. `Foundations-and-Introduction`  
+   Core postulates, Hilbert spaces, linear operators, qubits, basic gates and circuits, and short exercises.
 
-Quantum Hardware Paradigms & Simulation: Hands-on experience with the two leading models of quantum computation: Gate-Based Quantum Computing and Adiabatic Quantum Computing. This includes problem formulation for quantum annealers (QUBOs, Ising Models) and developing for different hardware platforms.
+2. `Quantum-Algorithms`  
+   Implementations and analyses of Deutsch–Jozsa, Bernstein–Vazirani, Simon’s algorithm, Phase Estimation, Shor’s algorithm, and related benchmarks.
 
+3. `Gate-Based-Quantum-Computing`  
+   Qiskit/Cirq notebooks and scripts for Grover, HHL, VQE, QAOA, and gate-level experiments with simulator and hardware backends.
 
+4. `Adiabatic-Quantum-Computing`  
+   Problem formulation (QUBO/Ising), mapping classical optimization problems (Knapsack, MIS) to annealers, and experiments with quantum-annealing toolchains.
 
+5. `Quantum-Communications-and-Cryptography`  
+   Exercises and reports on entanglement, teleportation, dense coding, and practical QKD protocol simulations.
 
+6. `Quantum-Error-Correction`  
+   Analysis, simulations, and design exercises for stabilizer codes and error-correcting strategies.
 
+> Each project folder includes a short summary, required dependencies (`requirements.txt` or `environment.yml`), and runnable examples or notebooks. Check the README inside each folder for reproducibility instructions.
 
-Variational & Optimization Algorithms: Extensive work with hybrid quantum-classical algorithms critical for NISQ-era devices, including the Variational Quantum Eigensolver (VQE) , Quantum Approximate Optimization Algorithm (QAOA) , and Quantum Amplitude Estimation (QAE).
+---
 
+## How to run
+1. Create a Python virtual environment (venv or conda).  
+2. Install dependencies from `requirements.txt` or `environment.yml`.  
+3. Open the notebook or run the example script listed in each project’s README.  
+4. For hardware experiments, follow the notes in the folder README (API keys/backends are **not** included).
 
+---
 
+## Selected highlights
+- Implemented circuit optimizations and comparative benchmarks for gate depth and fidelity across different transpiler settings.  
+- Developed hybrid VQE/QAOA pipelines with parameter-shift derivatives and classical optimizer comparisons.  
+- Formulated and solved QUBO encodings for combinatorial instances and tested annealer-centric embeddings.
 
-Quantum Machine Learning: Exploration of the intersection of AI and quantum computing, with coursework covering Quantum Machine Learning and Quantum Neural Networks.
+(See individual project READMEs for links to notebooks, results, and plots.)
 
+---
 
-Quantum Cryptography & Communications: Deep understanding of secure communication protocols and the quantum principles that enable them, including Quantum Key Distribution (QKD) , entanglement , and quantum data compression.
+## About me & contact
+I am a Quantum Technology Engineer passionate about applying quantum phenomena to next-generation computational workflows. For full professional details and contact:  
+- LinkedIn: [Your LinkedIn Profile URL Here]  
+- Email: your.email@example.com
 
+---
 
+*If you’d like, I can also help you:*  
+- convert these project summaries into pinned repo descriptions,  
+- generate short one-line descriptions for each repo to use as GitHub repository descriptions, or  
+- create a polished personal portfolio page (GitHub Pages) that links to these projects.
+# Oussama Turki — Quantum Engineering Portfolio
 
+Welcome to my portfolio of projects and coursework from the **Master's in Quantum Engineering** program. This repository collects hands-on implementations, notebooks, and reports that demonstrate both the theoretical foundations and applied skills I developed during my studies.
 
+---
 
+## Overview
+I focus on quantum algorithms, hardware-aware problem formulation, hybrid quantum-classical methods for NISQ devices, quantum machine learning, quantum communications, and error correction. The work here includes reproducible code, Jupyter notebooks, and short reports summarizing experimental results and design choices.
 
-Quantum Error Correction: Foundational knowledge of how to combat decoherence and noise in quantum systems, including the study and design of Quantum Error-Correcting Codes and Stabilizer Codes.
+---
 
+## Core competencies
+- **Quantum algorithms** — Theory and implementation of algorithms such as Quantum Fourier Transform, Grover’s search, Shor’s factoring, HHL, Quantum Phase Estimation, and quantum walk methods.  
+- **Quantum hardware paradigms & simulation** — Gate-based and adiabatic models; QUBO / Ising formulations for annealers; hardware-aware mapping and simulation.  
+- **Variational & optimization algorithms** — Design and evaluation of hybrid algorithms (VQE, QAOA, QAE) and classical optimizer integration for NISQ devices.  
+- **Quantum machine learning** — Prototyping quantum neural circuits, embeddings, and hybrid approaches using PennyLane / TFQ.  
+- **Quantum communications & cryptography** — Practical exercises in QKD, entanglement protocols (teleportation, dense coding), and quantum data compression.  
+- **Quantum error correction & mitigation** — Stabilizer codes, syndrome extraction analysis, and NISQ-era mitigation techniques.
 
+---
 
+## Repository structure
+Each top-level folder contains projects, notebooks, datasets (when allowed), and a folder README with setup and execution instructions.
 
+1. `Foundations-and-Introduction`  
+   Core postulates, Hilbert spaces, linear operators, qubits, basic gates and circuits, and short exercises.
 
-Repository Structure
-This portfolio is organized into folders corresponding to the main subjects of my Master's program. Each folder contains relevant projects, exercises, and detailed documentation.
+2. `Quantum-Algorithms`  
+   Implementations and analyses of Deutsch–Jozsa, Bernstein–Vazirani, Simon’s algorithm, Phase Estimation, Shor’s algorithm, and related benchmarks.
 
-1-Foundations-and-Introduction
+3. `Gate-Based-Quantum-Computing`  
+   Qiskit/Cirq notebooks and scripts for Grover, HHL, VQE, QAOA, and gate-level experiments with simulator and hardware backends.
 
-Covers the fundamental postulates of quantum mechanics , mathematical preliminaries like Hilbert Spaces and linear operators , and an introduction to qubits , gates , and circuits.
+4. `Adiabatic-Quantum-Computing`  
+   Problem formulation (QUBO/Ising), mapping classical optimization problems (Knapsack, MIS) to annealers, and experiments with quantum-annealing toolchains.
 
+5. `Quantum-Communications-and-Cryptography`  
+   Exercises and reports on entanglement, teleportation, dense coding, and practical QKD protocol simulations.
 
+6. `Quantum-Error-Correction`  
+   Analysis, simulations, and design exercises for stabilizer codes and error-correcting strategies.
 
+> Each project folder includes a short summary, required dependencies (`requirements.txt` or `environment.yml`), and runnable examples or notebooks. Check the README inside each folder for reproducibility instructions.
 
+---
 
-2-Quantum-Algorithms
+## How to run
+1. Create a Python virtual environment (venv or conda).  
+2. Install dependencies from `requirements.txt` or `environment.yml`.  
+3. Open the notebook or run the example script listed in each project’s README.  
+4. For hardware experiments, follow the notes in the folder README (API keys/backends are **not** included).
 
-Contains implementations of algorithms such as Deutsch-Jozsa , Bernstein-Vazirani , Simon's Algorithm , Quantum Phase Estimation , and Shor's Algorithm.
+---
 
+## Selected highlights
+- Implemented circuit optimizations and comparative benchmarks for gate depth and fidelity across different transpiler settings.  
+- Developed hybrid VQE/QAOA pipelines with parameter-shift derivatives and classical optimizer comparisons.  
+- Formulated and solved QUBO encodings for combinatorial instances and tested annealer-centric embeddings.
 
+(See individual project READMEs for links to notebooks, results, and plots.)
 
+---
 
+## About me & contact
+I am a Quantum Technology Engineer passionate about applying quantum phenomena to next-generation computational workflows. For full professional details and contact:  
+- LinkedIn: [Your LinkedIn Profile URL Here]  
+- Email: your.email@example.com
 
-3-Gate-Based-Quantum-Computing
+---
 
-Practical exercises using SDKs like Qiskit to implement advanced algorithms like Grover's Search , HHL , VQE , and QAOA.
+*If you’d like, I can also help you:*  
+- convert these project summaries into pinned repo descriptions,  
+- generate short one-line descriptions for each repo to use as GitHub repository descriptions, or  
+- create a polished personal portfolio page (GitHub Pages) that links to these projects.
+# Oussama Turki — Quantum Engineering Portfolio
 
+Welcome to my portfolio of projects and coursework from the **Master's in Quantum Engineering** program. This repository collects hands-on implementations, notebooks, and reports that demonstrate both the theoretical foundations and applied skills I developed during my studies.
 
+---
 
+## Overview
+I focus on quantum algorithms, hardware-aware problem formulation, hybrid quantum-classical methods for NISQ devices, quantum machine learning, quantum communications, and error correction. The work here includes reproducible code, Jupyter notebooks, and short reports summarizing experimental results and design choices.
 
+---
 
-4-Adiabatic-Quantum-Computing
+## Core competencies
+- **Quantum algorithms** — Theory and implementation of algorithms such as Quantum Fourier Transform, Grover’s search, Shor’s factoring, HHL, Quantum Phase Estimation, and quantum walk methods.  
+- **Quantum hardware paradigms & simulation** — Gate-based and adiabatic models; QUBO / Ising formulations for annealers; hardware-aware mapping and simulation.  
+- **Variational & optimization algorithms** — Design and evaluation of hybrid algorithms (VQE, QAOA, QAE) and classical optimizer integration for NISQ devices.  
+- **Quantum machine learning** — Prototyping quantum neural circuits, embeddings, and hybrid approaches using PennyLane / TFQ.  
+- **Quantum communications & cryptography** — Practical exercises in QKD, entanglement protocols (teleportation, dense coding), and quantum data compression.  
+- **Quantum error correction & mitigation** — Stabilizer codes, syndrome extraction analysis, and NISQ-era mitigation techniques.
 
-Projects focused on formulating and solving optimization problems (e.g., Knapsack , Maximum Independent Sets ) using adiabatic quantum computing and quantum annealers.
+---
 
+## Repository structure
+Each top-level folder contains projects, notebooks, datasets (when allowed), and a folder README with setup and execution instructions.
 
+1. `Foundations-and-Introduction`  
+   Core postulates, Hilbert spaces, linear operators, qubits, basic gates and circuits, and short exercises.
 
+2. `Quantum-Algorithms`  
+   Implementations and analyses of Deutsch–Jozsa, Bernstein–Vazirani, Simon’s algorithm, Phase Estimation, Shor’s algorithm, and related benchmarks.
 
-5-Quantum-Communications-and-Cryptography
+3. `Gate-Based-Quantum-Computing`  
+   Qiskit/Cirq notebooks and scripts for Grover, HHL, VQE, QAOA, and gate-level experiments with simulator and hardware backends.
 
-Exercises and reports on entanglement applications like teleportation and dense coding , as well as Quantum Key Distribution (QKD) protocols.
+4. `Adiabatic-Quantum-Computing`  
+   Problem formulation (QUBO/Ising), mapping classical optimization problems (Knapsack, MIS) to annealers, and experiments with quantum-annealing toolchains.
 
+5. `Quantum-Communications-and-Cryptography`  
+   Exercises and reports on entanglement, teleportation, dense coding, and practical QKD protocol simulations.
 
+6. `Quantum-Error-Correction`  
+   Analysis, simulations, and design exercises for stabilizer codes and error-correcting strategies.
 
+> Each project folder includes a short summary, required dependencies (`requirements.txt` or `environment.yml`), and runnable examples or notebooks. Check the README inside each folder for reproducibility instructions.
 
+---
 
-6-Quantum-Error-Correction
+## How to run
+1. Create a Python virtual environment (venv or conda).  
+2. Install dependencies from `requirements.txt` or `environment.yml`.  
+3. Open the notebook or run the example script listed in each project’s README.  
+4. For hardware experiments, follow the notes in the folder README (API keys/backends are **not** included).
 
-Analysis and design of quantum codes , including work with Stabilizer Codes.
+---
 
+## Selected highlights
+- Implemented circuit optimizations and comparative benchmarks for gate depth and fidelity across different transpiler settings.  
+- Developed hybrid VQE/QAOA pipelines with parameter-shift derivatives and classical optimizer comparisons.  
+- Formulated and solved QUBO encodings for combinatorial instances and tested annealer-centric embeddings.
 
+(See individual project READMEs for links to notebooks, results, and plots.)
 
-About Me
-I am a Quantum Technology Engineer passionate about leveraging quantum phenomena to build next-generation computational tools. For more details on my professional experience, please visit my LinkedIn profile.
+---
 
-LinkedIn: [Your LinkedIn Profile URL Here]
+## About me & contact
+I am a Quantum Technology Engineer passionate about applying quantum phenomena to next-generation computational workflows. For full professional details and contact:  
+- LinkedIn: [Your LinkedIn Profile URL Here]  
+- Email: your.email@example.com
+
+---
+
+*If you’d like, I can also help you:*  
+- convert these project summaries into pinned repo descriptions,  
+- generate short one-line descriptions for each repo to use as GitHub repository descriptions, or  
+- create a polished personal portfolio page (GitHub Pages) that links to these projects.
+# Oussama Turki — Quantum Engineering Portfolio
+
+Welcome to my portfolio of projects and coursework from the **Master's in Quantum Engineering** program. This repository collects hands-on implementations, notebooks, and reports that demonstrate both the theoretical foundations and applied skills I developed during my studies.
+
+---
+
+## Overview
+I focus on quantum algorithms, hardware-aware problem formulation, hybrid quantum-classical methods for NISQ devices, quantum machine learning, quantum communications, and error correction. The work here includes reproducible code, Jupyter notebooks, and short reports summarizing experimental results and design choices.
+
+---
+
+## Core competencies
+- **Quantum algorithms** — Theory and implementation of algorithms such as Quantum Fourier Transform, Grover’s search, Shor’s factoring, HHL, Quantum Phase Estimation, and quantum walk methods.  
+- **Quantum hardware paradigms & simulation** — Gate-based and adiabatic models; QUBO / Ising formulations for annealers; hardware-aware mapping and simulation.  
+- **Variational & optimization algorithms** — Design and evaluation of hybrid algorithms (VQE, QAOA, QAE) and classical optimizer integration for NISQ devices.  
+- **Quantum machine learning** — Prototyping quantum neural circuits, embeddings, and hybrid approaches using PennyLane / TFQ.  
+- **Quantum communications & cryptography** — Practical exercises in QKD, entanglement protocols (teleportation, dense coding), and quantum data compression.  
+- **Quantum error correction & mitigation** — Stabilizer codes, syndrome extraction analysis, and NISQ-era mitigation techniques.
+
+---
+
+## Repository structure
+Each top-level folder contains projects, notebooks, datasets (when allowed), and a folder README with setup and execution instructions.
+
+1. `Foundations-and-Introduction`  
+   Core postulates, Hilbert spaces, linear operators, qubits, basic gates and circuits, and short exercises.
+
+2. `Quantum-Algorithms`  
+   Implementations and analyses of Deutsch–Jozsa, Bernstein–Vazirani, Simon’s algorithm, Phase Estimation, Shor’s algorithm, and related benchmarks.
+
+3. `Gate-Based-Quantum-Computing`  
+   Qiskit/Cirq notebooks and scripts for Grover, HHL, VQE, QAOA, and gate-level experiments with simulator and hardware backends.
+
+4. `Adiabatic-Quantum-Computing`  
+   Problem formulation (QUBO/Ising), mapping classical optimization problems (Knapsack, MIS) to annealers, and experiments with quantum-annealing toolchains.
+
+5. `Quantum-Communications-and-Cryptography`  
+   Exercises and reports on entanglement, teleportation, dense coding, and practical QKD protocol simulations.
+
+6. `Quantum-Error-Correction`  
+   Analysis, simulations, and design exercises for stabilizer codes and error-correcting strategies.
+
+> Each project folder includes a short summary, required dependencies (`requirements.txt` or `environment.yml`), and runnable examples or notebooks. Check the README inside each folder for reproducibility instructions.
+
+---
+
+## How to run
+1. Create a Python virtual environment (venv or conda).  
+2. Install dependencies from `requirements.txt` or `environment.yml`.  
+3. Open the notebook or run the example script listed in each project’s README.  
+4. For hardware experiments, follow the notes in the folder README (API keys/backends are **not** included).
+
+---
+
+## Selected highlights
+- Implemented circuit optimizations and comparative benchmarks for gate depth and fidelity across different transpiler settings.  
+- Developed hybrid VQE/QAOA pipelines with parameter-shift derivatives and classical optimizer comparisons.  
+- Formulated and solved QUBO encodings for combinatorial instances and tested annealer-centric embeddings.
+
+(See individual project READMEs for links to notebooks, results, and plots.)
+
+---
+
+## About me & contact
+I am a Quantum Technology Engineer passionate about applying quantum phenomena to next-generation computational workflows. For full professional details and contact:  
+- LinkedIn: [Your LinkedIn Profile URL Here]  
+- Email: your.email@example.com
+
+---
+
+*If you’d like, I can also help you:*  
+- convert these project summaries into pinned repo descriptions,  
+- generate short one-line descriptions for each repo to use as GitHub repository descriptions, or  
+- create a polished personal portfolio page (GitHub Pages) that links to these projects.
+# Oussama Turki — Quantum Engineering Portfolio
+
+Welcome to my portfolio of projects and coursework from the **Master's in Quantum Engineering** program. This repository collects hands-on implementations, notebooks, and reports that demonstrate both the theoretical foundations and applied skills I developed during my studies.
+
+---
+
+## Overview
+I focus on quantum algorithms, hardware-aware problem formulation, hybrid quantum-classical methods for NISQ devices, quantum machine learning, quantum communications, and error correction. The work here includes reproducible code, Jupyter notebooks, and short reports summarizing experimental results and design choices.
+
+---
+
+## Core competencies
+- **Quantum algorithms** — Theory and implementation of algorithms such as Quantum Fourier Transform, Grover’s search, Shor’s factoring, HHL, Quantum Phase Estimation, and quantum walk methods.  
+- **Quantum hardware paradigms & simulation** — Gate-based and adiabatic models; QUBO / Ising formulations for annealers; hardware-aware mapping and simulation.  
+- **Variational & optimization algorithms** — Design and evaluation of hybrid algorithms (VQE, QAOA, QAE) and classical optimizer integration for NISQ devices.  
+- **Quantum machine learning** — Prototyping quantum neural circuits, embeddings, and hybrid approaches using PennyLane / TFQ.  
+- **Quantum communications & cryptography** — Practical exercises in QKD, entanglement protocols (teleportation, dense coding), and quantum data compression.  
+- **Quantum error correction & mitigation** — Stabilizer codes, syndrome extraction analysis, and NISQ-era mitigation techniques.
+
+---
+
+## Repository structure
+Each top-level folder contains projects, notebooks, datasets (when allowed), and a folder README with setup and execution instructions.
+
+1. `Foundations-and-Introduction`  
+   Core postulates, Hilbert spaces, linear operators, qubits, basic gates and circuits, and short exercises.
+
+2. `Quantum-Algorithms`  
+   Implementations and analyses of Deutsch–Jozsa, Bernstein–Vazirani, Simon’s algorithm, Phase Estimation, Shor’s algorithm, and related benchmarks.
+
+3. `Gate-Based-Quantum-Computing`  
+   Qiskit/Cirq notebooks and scripts for Grover, HHL, VQE, QAOA, and gate-level experiments with simulator and hardware backends.
+
+4. `Adiabatic-Quantum-Computing`  
+   Problem formulation (QUBO/Ising), mapping classical optimization problems (Knapsack, MIS) to annealers, and experiments with quantum-annealing toolchains.
+
+5. `Quantum-Communications-and-Cryptography`  
+   Exercises and reports on entanglement, teleportation, dense coding, and practical QKD protocol simulations.
+
+6. `Quantum-Error-Correction`  
+   Analysis, simulations, and design exercises for stabilizer codes and error-correcting strategies.
+
+> Each project folder includes a short summary, required dependencies (`requirements.txt` or `environment.yml`), and runnable examples or notebooks. Check the README inside each folder for reproducibility instructions.
+
+---
+
+## How to run
+1. Create a Python virtual environment (venv or conda).  
+2. Install dependencies from `requirements.txt` or `environment.yml`.  
+3. Open the notebook or run the example script listed in each project’s README.  
+4. For hardware experiments, follow the notes in the folder README (API keys/backends are **not** included).
+
+---
+
+## Selected highlights
+- Implemented circuit optimizations and comparative benchmarks for gate depth and fidelity across different transpiler settings.  
+- Developed hybrid VQE/QAOA pipelines with parameter-shift derivatives and classical optimizer comparisons.  
+- Formulated and solved QUBO encodings for combinatorial instances and tested annealer-centric embeddings.
+
+(See individual project READMEs for links to notebooks, results, and plots.)
+
+---
+
+## About me & contact
+I am a Quantum Technology Engineer passionate about applying quantum phenomena to next-generation computational workflows. For full professional details and contact:  
+- LinkedIn: [Your LinkedIn Profile URL Here]  
+- Email: your.email@example.com
+
+---
+
+*If you’d like, I can also help you:*  
+- convert these project summaries into pinned repo descriptions,  
+- generate short one-line descriptions for each repo to use as GitHub repository descriptions, or  
+- create a polished personal portfolio page (GitHub Pages) that links to these projects.
+# Oussama Turki — Quantum Engineering Portfolio
+
+Welcome to my portfolio of projects and coursework from the **Master's in Quantum Engineering** program. This repository collects hands-on implementations, notebooks, and reports that demonstrate both the theoretical foundations and applied skills I developed during my studies.
+
+---
+
+## Overview
+I focus on quantum algorithms, hardware-aware problem formulation, hybrid quantum-classical methods for NISQ devices, quantum machine learning, quantum communications, and error correction. The work here includes reproducible code, Jupyter notebooks, and short reports summarizing experimental results and design choices.
+
+---
+
+## Core competencies
+- **Quantum algorithms** — Theory and implementation of algorithms such as Quantum Fourier Transform, Grover’s search, Shor’s factoring, HHL, Quantum Phase Estimation, and quantum walk methods.  
+- **Quantum hardware paradigms & simulation** — Gate-based and adiabatic models; QUBO / Ising formulations for annealers; hardware-aware mapping and simulation.  
+- **Variational & optimization algorithms** — Design and evaluation of hybrid algorithms (VQE, QAOA, QAE) and classical optimizer integration for NISQ devices.  
+- **Quantum machine learning** — Prototyping quantum neural circuits, embeddings, and hybrid approaches using PennyLane / TFQ.  
+- **Quantum communications & cryptography** — Practical exercises in QKD, entanglement protocols (teleportation, dense coding), and quantum data compression.  
+- **Quantum error correction & mitigation** — Stabilizer codes, syndrome extraction analysis, and NISQ-era mitigation techniques.
+
+---
+
+## Repository structure
+Each top-level folder contains projects, notebooks, datasets (when allowed), and a folder README with setup and execution instructions.
+
+1. `Foundations-and-Introduction`  
+   Core postulates, Hilbert spaces, linear operators, qubits, basic gates and circuits, and short exercises.
+
+2. `Quantum-Algorithms`  
+   Implementations and analyses of Deutsch–Jozsa, Bernstein–Vazirani, Simon’s algorithm, Phase Estimation, Shor’s algorithm, and related benchmarks.
+
+3. `Gate-Based-Quantum-Computing`  
+   Qiskit/Cirq notebooks and scripts for Grover, HHL, VQE, QAOA, and gate-level experiments with simulator and hardware backends.
+
+4. `Adiabatic-Quantum-Computing`  
+   Problem formulation (QUBO/Ising), mapping classical optimization problems (Knapsack, MIS) to annealers, and experiments with quantum-annealing toolchains.
+
+5. `Quantum-Communications-and-Cryptography`  
+   Exercises and reports on entanglement, teleportation, dense coding, and practical QKD protocol simulations.
+
+6. `Quantum-Error-Correction`  
+   Analysis, simulations, and design exercises for stabilizer codes and error-correcting strategies.
+
+> Each project folder includes a short summary, required dependencies (`requirements.txt` or `environment.yml`), and runnable examples or notebooks. Check the README inside each folder for reproducibility instructions.
+
+---
+
+## How to run
+1. Create a Python virtual environment (venv or conda).  
+2. Install dependencies from `requirements.txt` or `environment.yml`.  
+3. Open the notebook or run the example script listed in each project’s README.  
+4. For hardware experiments, follow the notes in the folder README (API keys/backends are **not** included).
+
+---
+
+## Selected highlights
+- Implemented circuit optimizations and comparative benchmarks for gate depth and fidelity across different transpiler settings.  
+- Developed hybrid VQE/QAOA pipelines with parameter-shift derivatives and classical optimizer comparisons.  
+- Formulated and solved QUBO encodings for combinatorial instances and tested annealer-centric embeddings.
+
+(See individual project READMEs for links to notebooks, results, and plots.)
+
+---
+
+## About me & contact
+I am a Quantum Technology Engineer passionate about applying quantum phenomena to next-generation computational workflows. For full professional details and contact:  
+- LinkedIn: [Your LinkedIn Profile URL Here]  
+- Email: your.email@example.com
+
+---
+
+*If you’d like, I can also help you:*  
+- convert these project summaries into pinned repo descriptions,  
+- generate short one-line descriptions for each repo to use as GitHub repository descriptions, or  
+- create a polished personal portfolio page (GitHub Pages) that links to these projects.
