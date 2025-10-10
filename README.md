@@ -63,8 +63,8 @@ Each top-level folder contains projects, notebooks, datasets (when allowed), and
 
 ## About me & contact
 I am a Quantum Technology Engineer passionate about applying quantum phenomena to next-generation computational workflows. For full professional details and contact:  
-- LinkedIn: [Your LinkedIn Profile URL Here]  
-- Email: your.email@example.com
+- LinkedIn: linkedin.com/in/oussama-turki-684aa31a5 
+
 
 ---
 
