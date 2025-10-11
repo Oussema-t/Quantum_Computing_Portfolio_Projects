@@ -66,9 +66,5 @@ I am a Quantum Technology Engineer passionate about applying quantum phenomena t
 - LinkedIn: linkedin.com/in/oussama-turki-684aa31a5 
 
 
----
 
-*If you’d like, I can also help you:*  
-- convert these project summaries into pinned repo descriptions,  
-- generate short one-line descriptions for each repo to use as GitHub repository descriptions, or  
-- create a polished personal portfolio page (GitHub Pages) that links to these projects.
+
